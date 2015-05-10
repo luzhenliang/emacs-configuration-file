@@ -9,6 +9,8 @@ emacs的配置文件(.emacs)
 
 >C-x，C-s指Ctrl + x， Ctrl + s
 
+emacs使用教程:http://www.luxiaoyou.com/blog/a-simple-emacs-tutorial
+
 如何配置？
 -------------
 在启动的emacs下依次按Ctrl+x Ctrl+f。输入~/.emacs后回车
