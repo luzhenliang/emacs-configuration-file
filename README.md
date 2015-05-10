@@ -2,8 +2,8 @@
 emacs的配置文件(.emacs)
 写在前面 
 >C-x       Ctrl + x 
-M-x       Alt + x 
-C-x，C-s      Ctrl + x， Ctrl + s
+>M-x       Alt + x 
+>C-x，C-s      Ctrl + x， Ctrl + s
 
 如何配置？
 -------------
