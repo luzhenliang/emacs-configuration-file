@@ -1,77 +1,77 @@
 ;;---------------------------------------
-;;Ñ¡ÔñĞ¡¹¤¾ßÀ¸Í¼±ê
+;;é€‰æ‹©å°å·¥å…·æ å›¾æ ‡
 ;;--------------------------------------
 (tool-bar-mode -1)
 
 ;;--------------------------------------
-;;¹Ø±Õ¿ªÆô»­Ãæ
+;;å…³é—­å¼€å¯ç”»é¢
 (setq inhibit-startup-message t)
 (setq indent-tabs-mode t)
 
-;;²»²úÉú±¸·İÎÄ¼ş
+;;ä¸äº§ç”Ÿå¤‡ä»½æ–‡ä»¶
 (setq make-backup-files nil)
 
-;;È¥µô¹ö¶¯Ìõ
+;;å»æ‰æ»šåŠ¨æ¡
 (set-scroll-bar-mode nil)
 
-;;ÉèÖÃÄ¬ÈÏ¹¤×÷Ä¿Â¼
+;;è®¾ç½®é»˜è®¤å·¥ä½œç›®å½•
 (setq default-directory "/home/luxiaoyou/files/emacs/")
 
-;;¿ªÆôÓï·¨¸ßÁÁ
+;;å¼€å¯è¯­æ³•é«˜äº®
 (global-font-lock-mode 1)
 
-;;ÏÔÊ¾ĞĞºÅ
+;;æ˜¾ç¤ºè¡Œå·
 (linum-mode)
 
-;;ÏÔÊ¾Ê±¼ä
+;;æ˜¾ç¤ºæ—¶é—´
 (display-time)
 
-;;ÏÔÊ¾ĞĞºÅ
+;;æ˜¾ç¤ºè¡Œå·
 (column-number-mode t)
-;;ÏÔÊ¾ÁĞºÅ
+;;æ˜¾ç¤ºåˆ—å·
 (setq mouse-yank-at-point t)
 
-;;È¥µô²Ëµ¥
+;;å»æ‰èœå•
 (menu-bar-mode -1)
 
-;;ÉèÖÃĞĞ±ê
+;;è®¾ç½®è¡Œæ ‡
 (linum-mode)
 
-;;Ï°¹ßÉèÖÃ£¬´ò¿ª£¯¹Ø±Õ²Ëµ¥
+;;ä¹ æƒ¯è®¾ç½®ï¼Œæ‰“å¼€ï¼å…³é—­èœå•
 (global-set-key [f12] 'menu-bar-mode)
 
 
-;;¿ªÆôÃÔÄãµØÍ¼
+;;å¼€å¯è¿·ä½ åœ°å›¾
 (global-set-key [f9] 'minimap-mode)
 
-;;¿ªÆôĞĞºÅ±ê¼Ç
+;;å¼€å¯è¡Œå·æ ‡è®°
 (global-linum-mode 1)
 (global-set-key [f8] 'linum-mode)
 
-;;±àÒëelÎÄ¼ş
+;;ç¼–è¯‘elæ–‡ä»¶
 ;;byte-compile-file
 
-;;¿ªÆôorg-mode
+;;å¼€å¯org-mode
 (global-set-key [f7] 'org-mode)
 
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/yougelisp/lisp"))
 ;;(add-to-list 'load-path (expand-file-name "~/.emacs.d/lisp"))
 ;;(add-to-list 'load-path (expand-file-name "~/.emacs.d") t)
 
-;;´ò¿ªÍ¼Æ¬
+;;æ‰“å¼€å›¾ç‰‡
 (auto-image-file-mode)
 
 (setq default-fill-column 80)
 
-;;ÉèÖÃ¸öÈËĞÅÏ¢
-(setq user-full-name "Â¬Ğ¡ÓÑ")
+;;è®¾ç½®ä¸ªäººä¿¡æ¯
+(setq user-full-name "å¢å°å‹")
 (setq user-mail-address "contact@luxiaoyou.com")
 
 ;;
 (setq frame-title-format "emacs@%b")
 
 
-;;ÏÔÊ¾Æ¥ÅäÀ¨ºÅ
+;;æ˜¾ç¤ºåŒ¹é…æ‹¬å·
 (show-paren-mode t)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -84,17 +84,17 @@
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 
-;;ÉèÖÃ¿ªÆôemacsµÄ´°¿Ú´óĞ¡
+;;è®¾ç½®å¼€å¯emacsçš„çª—å£å¤§å°
 (setq default-frame-alist  
       '((height . 35) (width . 125) (menu-bar-lines . 0) (tool-bar-lines . 0)))   
 (put 'upcase-region 'disabled nil) 
 
-;;Ğ´ÎÄ¼ş±àÂë
+;;å†™æ–‡ä»¶ç¼–ç 
 (set-buffer-file-coding-system 'utf-8)
 
 
-;;Emacs Í¸Ã÷ ÉèÖÃ    
-(global-set-key [(f6)] 'loop-alpha)  ;;×¢ÒâÕâĞĞÖĞµÄF8 , ¿ÉÒÔ¸Ä³ÉÄãÏëÒªµÄ°´¼ü    
+;;Emacs é€æ˜ è®¾ç½®    
+(global-set-key [(f6)] 'loop-alpha)  ;;ç»‘å®šå¿«æ·é”®f6å¼€å¯é€æ˜
     
 (setq alpha-list '((85 55) (100 100)))    
     
@@ -111,7 +111,7 @@
 
 
 ;;---------------------------------------------------
-;;start ²å¼şÏÂÔØ°üµÄµØÅÌ
+;;start æ’ä»¶ä¸‹è½½åŒ…çš„åœ°ç›˜
 ;;---------------------------------------------------
 
 (require 'package) ;; You might already have this line
@@ -135,19 +135,19 @@
     (setq requirements (reverse requirements))
     (print requirements))
 ;;----------------------------------------------------
-;;end  ²å¼şÏÂÔØ°üµÄµØÅÌ
+;;end  æ’ä»¶ä¸‹è½½åŒ…çš„åœ°ç›˜
 ;;-----------------------------------------------------
 
 
 ;;-----------------------------------------------------
-;;start   ÈÃÊäÈëÃüÁî±äµÃ·É¿ì
+;;start   è®©è¾“å…¥å‘½ä»¤å˜å¾—é£å¿«
 ;;-----------------------------------------------------
 
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 ;; This is your old M-x.
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
-;;end    ÈÃÊäÈëÃüÁî±äµÃ·É¿ì
+;;end    è®©è¾“å…¥å‘½ä»¤å˜å¾—é£å¿«
 ;;-------------------------------------------------------
 
 
