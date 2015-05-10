@@ -54,7 +54,7 @@
 ;;开启org-mode
 (global-set-key [f7] 'org-mode)
 
-(add-to-list 'load-path (expand-file-name "~/.emacs.d/yougelisp/lisp"))
+;;(add-to-list 'load-path (expand-file-name "~/.emacs.d/yougelisp/lisp"))
 ;;(add-to-list 'load-path (expand-file-name "~/.emacs.d/lisp"))
 ;;(add-to-list 'load-path (expand-file-name "~/.emacs.d") t)
 
