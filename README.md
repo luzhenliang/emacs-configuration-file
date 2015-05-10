@@ -17,11 +17,11 @@ emacs使用教程:http://www.luxiaoyou.com/blog/a-simple-emacs-tutorial
 
 然后将配置好的.emacs的内容复制粘贴过去，Ctrl+x Ctrl+s保存配置。如果懒得复制粘贴，可直接拷贝.emacs到下面路径覆盖原来的。
 
->windows默认路径
-c://users/你的用户名/AppDate/Roaming/
+windows默认路径
+>c://users/你的用户名/AppDate/Roaming/
 
->linux默认路径
-/home/你的用户名/
+linux默认路径
+>/home/你的用户名/
 
 如何安装插件？
 -----------------------
