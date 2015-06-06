@@ -9,7 +9,7 @@ emacs的配置文件(.emacs)
 
 >C-x，C-s指Ctrl + x， Ctrl + s
 
-emacs使用教程:http://www.luxiaoyou.com/blog/a-simple-emacs-tutorial
+[emacs使用教程](http://luxiaoyou.github.io/blog/2015/4/a-simple-emacs-tutorial.html)
 
 如何配置？
 -------------
