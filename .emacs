@@ -54,9 +54,6 @@
 ;;开启org-mode
 (global-set-key [f7] 'org-mode)
 
-;;(add-to-list 'load-path (expand-file-name "~/.emacs.d/yougelisp/lisp"))
-;;(add-to-list 'load-path (expand-file-name "~/.emacs.d/lisp"))
-;;(add-to-list 'load-path (expand-file-name "~/.emacs.d") t)
 
 ;;打开图片
 (auto-image-file-mode)
@@ -74,10 +71,6 @@
 ;;显示匹配括号
 (show-paren-mode t)
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(custom-enabled-themes (quote (tsdh-dark)))
  '(display-time-mode t)
@@ -114,13 +107,12 @@
 ;;start 插件下载包的地盘
 ;;---------------------------------------------------
 
-(require 'package) ;; You might already have this line
+(require 'package) 
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
 (when (< emacs-major-version 24)
-  ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
-(package-initialize) ;; You might already have this line
+(package-initialize) 
 
 
 
@@ -145,7 +137,7 @@
 
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
-;; This is your old M-x.
+
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 ;;end    让输入命令变得飞快
 ;;-------------------------------------------------------
